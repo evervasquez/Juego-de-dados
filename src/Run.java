@@ -6,8 +6,8 @@ public class Run {
     private static String JUGADORB = "Bazan";
 
     public static void main(String[] args){
-        Jugador jugadorA = new Jugador(JUGADORA);
-        Jugador jugadorB = new Jugador(JUGADORB);
+        Jugador jugadorA = new Jugador(JUGADORA, 23, "Masculino");
+        Jugador jugadorB = new Jugador(JUGADORB, 20, "Femenino");
 
         int resultadoA = jugadorA.tirarDado("Rojo");
         int resultadoB = jugadorB.tirarDado("Azul");
